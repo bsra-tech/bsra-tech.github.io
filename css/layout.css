@@ -52,6 +52,13 @@ li a {
   color: #515769;
 }
 
+.list-item{
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Hind, sans-serif;
+  color: #515769;
+}
+
 a {
   font-family: Hind, sans-serif;
   color: #81848f;
