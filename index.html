@@ -81,18 +81,27 @@
                     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                 </ol>
             </div>
+            <style>
+                div.first { 
+                    /*setting alpha = 0.1*/ 
+                    background: rgba(0, 59, 148, 0.322); 
+                } 
 
+                div.second {
+                    background: rgba(0, 70, 151, 0.247);
+                }
+            </style>
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
                     <img class="img-responsive" src="img/1920x1080/01.jpg" alt="Slider Image">
                     <div class="container">
                         <div class="carousel-centered">
-                            <div class="margin-b-40">
+                            <div class="first margin-b-40 col-lg-8">
                                 <h1 class="carousel-title">About BSRA</h1>
-                                <pa>Incorporated in March 2018, BSRA Technical Consultancy services LLP provides enterprise solutions and consultancy in IT, Communication and Healthcare sectors.<br> BSRA is a firm which combines experienced senior leaders with rich and diverse domain expertise in a number of domains.<br> Our integrated value added solution offerings are highly cost effective  and state of art.</pa>
+                                <pa>Incorporated in March 2018, BSRA Technical Consultancy services LLP provides enterprise solutions and consultancy in IT, Communication and Healthcare sectors. BSRA is a firm which combines experienced senior leaders with rich and diverse domain expertise in a number of domains. Our integrated value added solution offerings are highly cost effective  and state of art.</pa>
                             </div>
-                            <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Explore</a>
+                           <!--<a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Explore</a>-->
                         </div>
                     </div>
                 </div>
@@ -100,11 +109,11 @@
                     <img class="img-responsive" src="img/1920x1080/02.jpg" alt="Slider Image">
                     <div class="container">
                         <div class="carousel-centered">
-                            <div class="margin-b-40">
-                                <h2 class="carousel-title">Vision</h2>
+                            <div class="second margin-b-40 col-lg-8">
+                                <h1 class="carousel-title">Vision</h1>
                                 <pa>Our vision is to provide innovative technical solutions and consultation to empower businesses and organizations while maintaining efficiency, trust, integrity, cost-effectiveness and customer satisfaction.</pa>
                             </div>
-                            <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Explore</a>
+                            <!--<a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Explore</a>-->
                         </div>
                     </div>
                 </div>
@@ -219,14 +228,14 @@
                 font-size: 14px;
                 font-weight: 500;
                 font-family: Hind, sans-serif;
-                color: #a9a9a9;
+                color: #505050;
             }
         </style>
         <div class="content-lg container">
             <div class="row margin-b-40">
                 <div class="col-md-6">
                     <h2>Our Offerings</h2>
-                    <p>
+                    <p style="color:#505050">
                         We provide cost-effective services and solutions in the following domains : 
                             <ul >
                                 <li class='list-item'>Project Consultancy</li>
@@ -234,8 +243,9 @@
                                 <li class='list-item'>Documentation</li>
                                 <li class='list-item'>Services</li>
                                 <li class='list-item'>Cyber Security</li>
-                                <li class='list-item'>CCTV Surveillance</li>
-                            </ul>
+                                <li class='list-item'>Smart Cities ICT Components</li>
+                                <li class='list-item'>Emergency Response System</li>
+                                </ul>
                     </p>
                 </div>
             </div>
@@ -543,62 +553,48 @@
 
         <!--========== FOOTER ==========-->
         <footer class="footer">
-            <!-- Links -->
-            <div class="footer-seperator">
-                <div class="content-lg container">
+                <!-- Links -->
+                <div class="footer-seperator">
+                    <div class="content-lg container">
+                        <div class="row">
+                            <div class="col-sm-4 sm-margin-b-30">
+                                <!-- List -->
+                                <ul class="list-unstyled footer-list">
+                                    <li class="footer-list-item"><a class="footer-list-link" href="https://www.linkedin.com/in/bsra-technical-consultancy-and-services-llp-1071651ba/">LinkedIn</a></li>
+                                    <li class="footer-list-item"><a class="footer-list-link" href="#">Facebook</a></li>
+                                    <!--<li class="footer-list-item"><a class="footer-list-link" href="#">Instagram</a></li>
+                                    <li class="footer-list-item"><a class="footer-list-link" href="#">YouTube</a></li>-->
+                                </ul>
+                                <!-- End List -->
+                            </div>
+                            <div class="col-sm-5 sm-margin-b-30">
+                                <h2 class="color-black">Send Us A Note</h2>
+                                <input type="text" class="form-control margin-b-20" placeholder="Name" required>
+                                <input type="email" class="form-control margin-b-20" placeholder="Email" required>
+                                <input type="text" class="form-control margin-b-20" placeholder="Phone" required>
+                                <textarea class="form-control  margin-b-30" rows="6" placeholder="Message" required></textarea>
+                                <button type="submit" class="btn-theme btn-theme-sm btn-base-bg text-uppercase">Submit</button>
+                            </div>
+                        </div>
+                        <!--// end row -->
+                    </div>
+                </div>
+                <!-- End Links -->
+    
+                <!-- Copyright -->
+                <div class="content container">
                     <div class="row">
-                        <div class="col-sm-2 sm-margin-b-50">
-                            <!-- List 
-                            <ul class="list-unstyled footer-list">
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Home</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">About</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Products</a></li>
-                                
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Careers</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Contact</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Terms</a></li>
-                            </ul>
-                            <!-- End List -->
+                        <div class="col-xs-6">
+                            <img class="footer-logo" src="img/logo.png" alt="Asentus Logo">
                         </div>
-                        <div class="col-sm-4 sm-margin-b-30">
-                            <!-- List 
-                            <ul class="list-unstyled footer-list">
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Twitter</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Facebook</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">Instagram</a></li>
-                                <li class="footer-list-item"><a class="footer-list-link" href="#">YouTube</a></li>
-                            </ul>
-                            <!-- End List -->
-                        </div>
-                        <div class="col-sm-5 sm-margin-b-30">
-                            <h2 class="color-white">Send Us A Note</h2>
-                            <input type="text" class="form-control footer-input margin-b-20" placeholder="Name" required>
-                            <input type="email" class="form-control footer-input margin-b-20" placeholder="Email" required>
-                            <input type="text" class="form-control footer-input margin-b-20" placeholder="Phone" required>
-                            <textarea class="form-control footer-input margin-b-30" rows="6" placeholder="Message" required></textarea>
-                            <button type="submit" class="btn-theme btn-theme-sm btn-base-bg text-uppercase">Submit</button>
+                        <div class="col-xs-6 text-right">
+                            <p class="margin-b-0"><a class="color-base fweight-700" href="http://keenthemes.com/preview/asentus/">BSRA</a> Theme Powered by: <a class="color-base fweight-700" href="http://www.keenthemes.com/">KeenThemes.com</a></p>
                         </div>
                     </div>
                     <!--// end row -->
                 </div>
-            </div>
-            <!-- End Links -->
-
-            <!-- Copyright -->
-            <div class="content container">
-                <div class="row">
-                    <div class="col-xs-6">
-                        <img class="footer-logo" src="img/logo.png" alt="Asentus Logo">
-                    </div>
-                    <div class="col-xs-6 text-right">
-                        <p class="margin-b-0"><a class="color-base fweight-700" href="http://keenthemes.com/preview/asentus/">BSRA</a> Theme Powered by: <a class="color-base fweight-700" href="http://www.keenthemes.com/">KeenThemes.com</a></p>
-                    </div>
-                </div>
-                <!--// end row -->
-            </div>
-            <!-- End Copyright -->
-        </footer>
-        <!--========== END FOOTER ==========-->
+                <!-- End Copyright -->
+            </footer>
 
         <!-- Back To Top -->
         <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
