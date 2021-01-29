@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home4/bsratdii/public_html/
-    - /bin/cp -fr * $DEPLOYPATH
+    - /bin/cp -fr !(.git) $DEPLOYPATH
