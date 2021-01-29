@@ -1,5 +1,4 @@
 ---
 deployment:
   tasks:
-    - /bin/rm -Rf /home4/bsratdii/public_html/*
-    - /bin/cp -Rf * /home4/bsratdii/public_html/
+    - /bin/mkdir /home4/bsratdii/hello
