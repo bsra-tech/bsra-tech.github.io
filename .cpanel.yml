@@ -1,4 +1,0 @@
----
-deployment:
-  tasks:
-    - /bin/mkdir /home4/bsratdii/hello
