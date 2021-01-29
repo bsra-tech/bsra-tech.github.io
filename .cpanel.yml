@@ -2,5 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home4/bsratdii/public_html
-      - /bin/rm -Rf $DEPLOYPATH/*
-      - /bin/cp -Rf * $DEPLOYPATH
+    - /bin/rm -Rf $DEPLOYPATH/*
+    - /bin/cp -Rf * $DEPLOYPATH/
