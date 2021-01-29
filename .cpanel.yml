@@ -4,5 +4,4 @@ deployment:
     - export DEPLOYPATH=/home4/bsratdii/public_html/
       - /bin/rm -Rf $DEPLOYPATH
       - /bin/mkdir $DEPLOYPATH
-      - /bin/mkdir $DEPLOYPATH/abc
-      - /bin/cp -R . $DEPLOYPATH
+      - /bin/cp -R * $DEPLOYPATH
