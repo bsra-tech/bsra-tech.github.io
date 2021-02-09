@@ -483,10 +483,9 @@ fieldset[disabled] .btn-theme {
 /*------------------------------------------------------------------
   	[Footer]
 ------------------------------------------------------------------*/
-.footer {
-  background: url(../img/1920x1080/03.jpg) no-repeat;
-  background-size: cover;
-  background-position: center center;
+.footer { 
+  background-size: 100%;
+  background-position: 0% 0%;
 }
 
 .footer .footer-seperator {
