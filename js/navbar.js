@@ -5,7 +5,7 @@ console.log(activeElements)
 activeElements.forEach((element)=>{
     element.classList.toggle("active");
 })
-console.log(fileName)
+//console.log(fileName)
 switch(fileName){
     case "index.html":
         document.getElementById("home").classList.toggle("active");
