@@ -1,5 +1,5 @@
 deployment:
   tasks:
-    - export PATH=~/home4/bsratdii
+    - export PATH=/home4/bsratdii
     - /bin/rm -rf $PATH/public_html/*
     - /bin/cp -R $PATH/repositories/bsra-techhub.io/*  $PATH/public_html/
