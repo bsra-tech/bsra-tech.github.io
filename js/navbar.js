@@ -1,7 +1,7 @@
 var elements = document.querySelectorAll(".nav-item-child")
 var fileName = location.pathname.substring(location.pathname.lastIndexOf("/") + 1)
 var activeElements = document.querySelectorAll(".active")
-console.log(activeElements)
+//console.log(activeElements)
 activeElements.forEach((element)=>{
     element.classList.toggle("active");
 })
